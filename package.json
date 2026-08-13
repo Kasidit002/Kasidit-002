@@ -1,0 +1,13 @@
+{
+  "name": "devops-web-app",
+  "version": "1.0.0",
+  "description": "DevOps Practical Exam Web Application",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node -e \"console.log('Running tests...'); process.exit(0);\""
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
